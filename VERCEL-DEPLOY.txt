@@ -1,0 +1,10 @@
+IMPORTANT: REDEPLOY THIS UPDATED ZIP
+The previous API files used ES module syntax. These updated files use CommonJS for Vercel Node.js function compatibility.
+
+1. Extract the ZIP.
+2. Upload/replace ALL files in the connected GitHub repository (especially api/contact.js and api/login.js).
+3. In Vercel, open Deployments and redeploy the newest commit.
+4. Test: open https://YOUR-DOMAIN/api/contact in a browser. GET should return 405 Method not allowed. That confirms the API route exists.
+5. Then submit the form on contact.html.
+
+The form is demo-only: it validates and returns success, but does not email or store anything. If you only upload the ZIP locally and do not push it to GitHub/redeploy Vercel, the live website will remain unchanged.

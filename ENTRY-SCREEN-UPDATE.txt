@@ -1,0 +1,9 @@
+BLACKSPIRE - ENTRY SCREEN
+
+Before the website opens, visitors see a small entry screen: dragon logo, tagline and an "Enter" button.
+No login, no email, nothing is stored or sent. It shows once per browser session.
+
+Files changed: index.html (entry markup + fonts), intro.js (Enter button), style.css (entry styles).
+Everything else is unchanged. api/login.js is NOT used (keep it deleted).
+
+Deploy: replace the files in your GitHub repo with this ZIP, commit, redeploy in Vercel, then hard-refresh.

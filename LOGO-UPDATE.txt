@@ -1,0 +1,5 @@
+BLACKSPIRE LOGO CONSISTENCY UPDATE
+
+The navigation/header logo on all HTML pages now uses the dragon emblem cropped from the opening-screen logo.png, while retaining the BLACKSPIRE wordmark text. The favicon also uses the updated PNG emblem.
+
+Deploy by replacing the files in your GitHub repository with this ZIP, committing/pushing, then redeploying the latest commit in Vercel. Refresh the phone browser after deployment.
